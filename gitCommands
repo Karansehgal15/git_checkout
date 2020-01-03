@@ -7,3 +7,6 @@ git config --global user.email "you@example.com"    //to tell emailId of gitAcc
 git config --global user.name "Karansehgal15"       // to tell userName of gitAcc
 git checkout -b newbranch_name                      //to create newbranch and it switches to that
 git branch                  // shows current branch by * and all other branch name
+git checkout BranchName // to switch to any other existingBrach 
+git merge BranchName // will merge this Branch with Name to current branch
+git config --global alias.short_name "complete_command_is_written_here" // to create alias for command 
