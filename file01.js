@@ -1,4 +1,4 @@
 function greet(name){
-console.log("hello coder"+name)
+console.log("welcome to algos/ds world "+name)
 }
 greet("karan")
