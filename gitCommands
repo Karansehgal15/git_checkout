@@ -1,0 +1,9 @@
+git init .                  // initialize git
+git status                  // to see status of files
+git add                     // filename to add file in order to get track
+git log                     // shows commits history
+git commit                  // to finalize the changes
+git config --global user.email "you@example.com"    //to tell emailId of gitAcc
+git config --global user.name "Karansehgal15"       // to tell userName of gitAcc
+git checkout -b newbranch_name                      //to create newbranch and it switches to that
+git branch                  // shows current branch by * and all other branch name
