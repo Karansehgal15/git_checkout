@@ -10,3 +10,5 @@ git branch                  // shows current branch by * and all other branch na
 git checkout BranchName // to switch to any other existingBrach 
 git merge BranchName // will merge this Branch with Name to current branch
 git config --global alias.short_name "complete_command_is_written_here" // to create alias for command 
+git commit --amend              // to edit latest commit in local repo use only when it is not pushed to github server
+git push -f origin Branch_name__   //to forcefully push the changes to the branch used when normal push fails
